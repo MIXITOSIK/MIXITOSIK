@@ -1,0 +1,35 @@
+<svg xmlns="http://w3.org" viewBox="0 0 600 100" width="100%" height="100">
+  <style>
+    .text-base {
+      font-family: 'Segoe UI', Roboto, sans-serif;
+      font-size: 42px;
+      font-weight: bold;
+      fill: #ffffff;
+    }
+    .aura-glow {
+      filter: drop-shadow(0px 0px 1px #ff007f) 
+              drop-shadow(0px 0px 10px #ff007f) 
+              drop-shadow(0px 0px 20px #ff007f);
+      animation: pulse 3s infinite alternate;
+    }
+    @keyframes pulse {
+      0% {
+        filter: drop-shadow(0px 0px 2px #00f0ff) drop-shadow(0px 0px 10px #00f0ff);
+      }
+      50% {
+        filter: drop-shadow(0px 0px 5px #ff007f) drop-shadow(0px 0px 25px #ff007f);
+      }
+      100% {
+        filter: drop-shadow(0px 0px 2px #7000ff) drop-shadow(0px 0px 15px #7000ff);
+      }
+    }
+  </style>
+  
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text-base aura-glow">
+    I am the great ruler of little owls.
+  </text>
+  
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" class="text-base">
+    I am the great ruler of little owls.
+  </text>
+</svg>
