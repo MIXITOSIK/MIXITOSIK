@@ -5,7 +5,7 @@
 <br>
 
 <div align="center">
-  ![I am the great ruler of little owls.](https://github.com/MIXITOSIK/MIXITOSIK/raw/refs/heads/main/aura.svg)
+  <img src="./aura.svg" width="600" height="100" alt="I am the great ruler of little owls.">
   <p>Welcome to my GitHub profile.</p>
 
   <a href='https://ko-fi.com/R6R718LBNP' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi4.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
