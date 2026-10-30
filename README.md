@@ -44,7 +44,11 @@
 <h3 align="center">📊 GitHub Activity</h3>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MIXITOSIK&theme=react-dark&bg_color=0d1117&color=a250ff&line=a250ff&point=ffffff" alt="Activity Graph" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/MIXITOSIK/MIXITOSIK/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/MIXITOSIK/MIXITOSIK/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/MIXITOSIK/MIXITOSIK/output/github-contribution-grid-snake.svg">
+  </picture>
 </p>
 
 <hr>
